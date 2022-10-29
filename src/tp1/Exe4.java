@@ -1,9 +1,8 @@
 package tp1;
-
 import java.util.Scanner;
 
 public class Exe4 {
-	//Parité d'une somme
+	// Demande à l'utilisateur de saisir 3 entiers, et affiche si leur somme est paire ou impaire.
 
 	public static void main(String[] args) {
 		System.out.println("Entrez trois nombres entiers : ");
@@ -11,8 +10,8 @@ public class Exe4 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-	    int s = a+b+c;
-	    if  (s%2==0){
+	    int somme = a+b+c;
+	    if  (somme%2 == 0) {
 	    	System.out.println("La somme des trois entiers est paire.");
 	    }
 	    else {
