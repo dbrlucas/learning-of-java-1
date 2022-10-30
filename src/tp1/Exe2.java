@@ -2,18 +2,18 @@ package tp1;
 import java.util.Scanner;
 
 public class Exe2 {
-	/* 
-	 Demande à l'utilisateur deux nombres entiers a et b puis :
-	 - affiche les valeurs de a et b,
-	 - échange les valeurs de a et b,
-	 - affiche les nouvelles valeurs de a et b,
-	 - affiche la valeur du double de a,
-	 - affiche la valeur de la moitié de b,
-	 - affiche le quotient et le reste de la division de a par b,
-	 - affiche la plus grande valeur entre a et b.
-	*/
 
 	public static void main(String[] args) {
+		/* 
+		 Demande à l'utilisateur deux nombres entiers a et b puis :
+		 - affiche les valeurs de a et b,
+		 - échange les valeurs de a et b,
+		 - affiche les nouvelles valeurs de a et b,
+		 - affiche la valeur du double de a,
+		 - affiche la valeur de la moitié de b,
+		 - affiche le quotient et le reste de la division de a par b,
+		 - affiche la plus grande valeur entre a et b.
+		*/
 		System.out.println("Entrez deux nombres entiers : ");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

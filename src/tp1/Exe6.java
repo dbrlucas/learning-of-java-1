@@ -2,9 +2,9 @@ package tp1;
 import java.util.Scanner;
 
 public class Exe6 {
-	// Demande à l'utilisateur un nombre entier de secondes puis affiche le nombre correspondant de jours, heures, minutes et secondes.
 
 	public static void main(String[] args) {
+		// Demande à l'utilisateur un nombre entier de secondes puis affiche le nombre correspondant de jours, heures, minutes et secondes.
 		System.out.print("Entrez un nombre entier de secondes : ");
 		Scanner sc = new Scanner(System.in);
 		int s = sc.nextInt();

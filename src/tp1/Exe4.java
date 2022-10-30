@@ -2,9 +2,9 @@ package tp1;
 import java.util.Scanner;
 
 public class Exe4 {
-	// Demande à l'utilisateur de saisir 3 entiers, et affiche si leur somme est paire ou impaire.
 
 	public static void main(String[] args) {
+		// Demande à l'utilisateur de saisir 3 entiers, et affiche si leur somme est paire ou impaire.
 		System.out.println("Entrez trois nombres entiers : ");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

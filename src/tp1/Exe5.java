@@ -2,9 +2,9 @@ package tp1;
 import java.util.Scanner;
 
 public class Exe5 {
-	// Affiche dans l'ordre croissant les valeurs de trois entiers saisis par l'utilisateur en utilisant des instructions conditionnelles if-else.
 
 	public static void main(String[] args) {
+		// Affiche dans l'ordre croissant les valeurs de trois entiers saisis par l'utilisateur en utilisant des instructions conditionnelles if-else.
 		System.out.println("Entrez trois nombres entiers : ");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
